@@ -1,0 +1,75 @@
+body {
+    background-color: #b7b7b7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 80px;
+
+}
+
+.title {
+    font-size: 56px;
+    line-height: 0.3;
+}
+
+.h2-div {
+    background-color: rgb(219, 218, 216);
+    width: 500px;
+    text-align: center;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.playing-area {
+    display: grid;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+}
+
+.button-div {
+    display: flex;
+    margin: 8px 30px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+
+}
+
+button {
+    font-size: 18px;
+    padding: 18px 38px;
+    border-radius: 8px;
+}
+
+.start-button:hover {
+    background-color: aqua;
+}
+
+.color-picker {
+    display: flex;
+    padding: 16px 20px;
+    gap: 16px;
+    align-items: center;
+}
+
+label {
+    font-size: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* code for slider */
